@@ -22,10 +22,11 @@ function initMap() {
           map: map
         });
       }
+    var loc = initMap();
+document.getElementById("demo").innerHTML = loc;
 }
 
-var loc = showPosition();
-document.getElementById("demo").innerHTML = loc;
+
 
 
   
