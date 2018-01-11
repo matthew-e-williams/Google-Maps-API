@@ -25,7 +25,7 @@ function initMap() {
 }
 
 var loc = initMap();
-document.getElementById("demo").innerHTML = loc;
+x.innerHTML = loc;
 
 
 
