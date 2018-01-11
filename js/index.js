@@ -22,10 +22,10 @@ function initMap() {
           map: map
         });
       }
-    var loc = initMap();
-document.getElementById("demo").innerHTML = loc;
 }
 
+var loc = initMap();
+document.getElementById("demo").innerHTML = loc;
 
 
 
