@@ -1,7 +1,5 @@
 var map, infoWindow;
       function initMap() {
-              var myLoc = new google.maps.LatLng(33.7836946323483,-118.13152550663756);
-
             /*
             google.maps.Map() takes 2 parameters separated by a comma: 
             1. the location of the map on your page, and 
@@ -11,8 +9,9 @@ var map, infoWindow;
           center: {lat: 33.770050, lng: -118.193739},
           zoom: 11
         });
+            var myLoc = new google.maps.LatLng(33.7836946323483,-118.13152550663756);
         infoWindow = new google.maps.InfoWindow;
-            infoWindow.setPosition({position:myLoc});       
+            infoWindow.setPosition(position:myLoc);       
             //originally infoWindow.setPosition(pos);
             infoWindow.setContent('I am here.');
             infoWindow.open(map);
