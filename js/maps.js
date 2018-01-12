@@ -5,7 +5,8 @@ var map, infoWindow;
           zoom: 11
         });
         infoWindow = new google.maps.InfoWindow;
-
+      }
+/*
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
@@ -15,7 +16,7 @@ var map, infoWindow;
             };
 
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
+            infoWindow.setContent('I am here.');
             infoWindow.open(map);
             map.setCenter(pos);
           }, function() {
@@ -26,3 +27,4 @@ var map, infoWindow;
           handleLocationError(false, infoWindow, map.getCenter());
         }
       }
+*/
