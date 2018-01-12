@@ -1,5 +1,10 @@
 var map, infoWindow;
       function initMap() {
+            /*
+            google.maps.Map() takes 2 parameters separated by a comma: 
+            1. the location of the map on your page, and 
+            2. the details/options of the map in the form of object properties. 
+            */
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 33.7836946323483, lng: -118.13152550663756},
           zoom: 11
