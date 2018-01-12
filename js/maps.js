@@ -5,7 +5,7 @@ var map, infoWindow;
           zoom: 11
         });
         infoWindow = new google.maps.InfoWindow;
-            //infoWindow.setPosition(pos);
+            infoWindow.setPosition(map.center);       //originally infoWindow.setPosition(pos);
             infoWindow.setContent('I am here.');
             infoWindow.open(map);
       }
