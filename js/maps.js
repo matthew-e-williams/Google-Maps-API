@@ -5,6 +5,9 @@ var map, infoWindow;
           zoom: 11
         });
         infoWindow = new google.maps.InfoWindow;
+            //infoWindow.setPosition(pos);
+            infoWindow.setContent('I am here.');
+            infoWindow.open(map);
       }
 /*
         // Try HTML5 geolocation.
