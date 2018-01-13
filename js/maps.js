@@ -9,7 +9,7 @@ var map, infoWindow;
           center: {lat: 33.770050, lng: -118.193739},
           zoom: 11
         });
-            var myLoc = new google.maps.LatLng(33.7836946323483,-118.13152550663756);
+            var myLoc = {33.7836946323483,-118.13152550663756};
         infoWindow = new google.maps.InfoWindow;
             infoWindow.setPosition(position:myLoc);       
             //originally infoWindow.setPosition(pos);
